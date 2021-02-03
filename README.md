@@ -10,4 +10,4 @@
 # Method and Results
   In this project, we used pre-trained Convolutional Neural Networks (ResNet,VGG16 and squeezeNet) to classify medical images. We applied Data Augmentation techniques in order to prevent overfitting. After testing several models we selected ResNet50 which had the highest accuracy: 86% after 15 epochs. Lastly, we aggregated the predictions by patient_id and assigned the predominant class to the images of each patient. This pre-processing increased the accuracy from 86% to 97%. And by that we had the [4th place](https://challengedata.ens.fr/participants/challenges/11/ranking/public) in the public ranking of this challenge.
 
-<kbd><img src="models_accuracies.PNG" /></kbd>
+<kbd><img src="Images/Models_accuracies.PNG" /></kbd>
